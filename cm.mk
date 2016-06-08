@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_d855
+PRODUCT_NAME := bliss_d855
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
