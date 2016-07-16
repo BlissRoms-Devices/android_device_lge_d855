@@ -4,5 +4,23 @@
     "repository": "android_device_lge_g3-common",
     "target_path": "device/lge/g3-common",
     "revision": "mm6.0"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision": "cm-13.0"
+  },  
+  {
+    "remote": "github",
+    "repository": "aclegg2011/android_kernel_tootsie_pop_g3",
+    "target_path": "kernel/lge/g3",
+    "revision": "cm-13.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cm-13.0"
   }
 ]
