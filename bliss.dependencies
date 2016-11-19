@@ -13,7 +13,7 @@
   },  
   {
     "remote": "github",
-    "repository": "aclegg2011/android_kernel_tootsie_pop_g3",
+    "repository": "android_kernel_lge_g3",
     "target_path": "kernel/lge/g3",
     "revision": "cm-13.0"
   },
